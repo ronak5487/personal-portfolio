@@ -2,13 +2,12 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
-import Headroom from "react-headroom";
 import {HashLink as Link} from 'react-router-hash-link'
 const Navbar = () => {
   const [toggleMenu , setToggleMenu] =useState(false);
   console.log(toggleMenu);
   return (
-    <Headroom>
+    <>
     <div id='nav'>
     <div className='py-6 flex w-screen items-center px-5 h-224 bg-[#171c28] animate-side-in '>
       <div className='flex-1 flex-row'>
@@ -54,7 +53,7 @@ const Navbar = () => {
           </div>
           }
           </div>
-          </Headroom>
+          </>
 
   )
 }
