@@ -25,7 +25,7 @@ const Greetings = () => {
   return (
     <div className='flex md:flex-row  flex-col '>
         <div className='flex flex-col md:mx-14 md:w-1/2 mt-16 w-screen'>
-            <span className=' flex md:text-6xl text-3xl text-white md:justify-start ml-3  justify-center font-bold my-7 font-mono '>Hi all, I'm Ronak <span class="animate-wave"> 👋</span></span>
+            <span className=' flex md:text-6xl text-3xl text-white md:justify-start ml-3  justify-center font-bold my-7 font-mono '>Hi all, I'm Ronak <span className="animate-wave"> 👋</span></span>
             <div className='text-white md:text-3xl mx-3 md:text-left text-center  text-md font-mono'>
             A passionate Full Stack Web and Blockchain Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Solidity and some other cool libraries and frameworks.
             </div>
