@@ -3,7 +3,7 @@ import ojas from "../assets/ojas.png";
 
 const Experience = () => {
   return (
-    <div className='flex flex-col  mt-44 md:px-24 px-5 divide-y-2 divide-y-reverse hover:divide-amber-500 divide-slate-300' id='experience'>
+    <div className='flex flex-col  pt-44 md:px-24 px-5 divide-y-2 divide-y-reverse hover:divide-amber-500 divide-slate-300' id='experience'>
       <div className='flex text-white font-mono md:font-medium font-semibold md:justify-start justify-center md:text-7xl text-5xl'>EXPERIENCE</div>
     <div className='flex md:flex-row flex-col md:pt-20 pt-16 '>
       <div className='flex md:justify-start justify-center items-center md:mb-12 w-80'>

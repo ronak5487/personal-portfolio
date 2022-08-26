@@ -8,8 +8,8 @@ const Navbar = () => {
   console.log(toggleMenu);
   return (
     <>
-    <div id='nav'>
-    <div className='py-6 flex w-screen items-center px-5 h-224 bg-[#171c28] animate-side-in '>
+    <div className='flex flex-col' id='nav'>
+    <div className='py-6 fixed flex w-screen items-center px-5  bg-[#171c28] animate-side-in overflow-x-hidden '>
       <div className='flex-1 flex-row'>
         <span className='text-slate-400 text-4xl'>&lt;</span>
         <span className=' font-augustina text-white cursor-pointer  font-bold text-3xl'> Ronak Gupta</span>
@@ -38,7 +38,7 @@ const Navbar = () => {
           </div>
           {
             toggleMenu &&
-          <div className=' w-screen fixed md:hidden flex-1 flex-col p-6 items-start text-white font-mono text-2xl blue-glassmorphism animate-side-in'>
+          <div className=' w-screen fixed md:hidden flex-1 flex-col p-6 top-20 justify-start text-white font-mono text-2xl blue-glassmorphism animate-side-in'>
         <Link to="#skills" smooth>
         <div className='hover:bg-fuchsia-700 p-2'><div className='mx-4'>Skills</div></div></Link>
         <Link to="#education" smooth>

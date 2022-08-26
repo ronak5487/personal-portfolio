@@ -1,5 +1,5 @@
 import React from 'react'
-import Skills1 from './Skills1'
+import skill1 from '../assets/skill1.gif'
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -14,11 +14,11 @@ import mi from "../assets/mi.png";
 
 const Skills2 = () => {
   return (
-    <div className='flex md:flex-row flex-col-reverse mt-44 ' id='skills' >
-      <div className='flex md:w-1/2  md:px-32 px-6 '>
-        <Skills1 />
+    <div className='flex md:flex-row flex-col-reverse md:pt-44 pt-32 ' id='skills' >
+      <div className='flex md:w-1/2 pl-4 h-1/3 md:mt-0 mt-12'>
+        <img src={skill1} alt="skill1"/>
       </div>
-      <div className='flex flex-col md:justify-start md:w-1/2 p-6 '>
+      <div className='flex flex-col md:justify-start md:w-1/2 p-6  '>
         <div className='md:text-left text-center text-white font-mono font-md md:text-5xl text-4xl'>SKILLS I HAVE</div>
         <div className='flex md:text-left text-center text-white font-mono font-md md:text-2xl text-xl mt-6'>CRAZY WEB DEVELOPER AS WELL AS INFANT PROGRAMMER WHO WANTS TO EXPLORE EVERY TECH STACK</div>
         <div className='flex flex-wrap mt-4 text-white justify-center'>
@@ -63,9 +63,9 @@ const Skills2 = () => {
             <div className='text-slate-400 mt-2 font-md' >Material-ui</div>
           </div>
         </div>
-        <div className='flex md:text-left text-center text-white font-mono font-md md:text-xl text-xl mt-6'>⚡I can develop highly interactive Front end / User Interfaces for your web applications</div>
-        <div className='flex md:text-left text-center text-white font-mono font-md md:text-xl text-xl mt-4'>⚡I can develop web applications based on blockchain which includes writing smart contracts and deploying it!!!</div>
-        <div className='flex md:text-left text-center text-white font-mono font-md md:text-xl text-xl mt-4'>⚡I have a good grasp in Data Structures and algorithms in c++ programming language</div>
+        <div className='flex md:text-left text-center text-white font-mono font-md md:text-xl text-lg mt-6'>⚡I can develop highly interactive Front end / User Interfaces for your web applications</div>
+        <div className='flex md:text-left text-center text-white font-mono font-md md:text-xl text-lg mt-4'>⚡I can develop web applications based on blockchain which includes writing smart contracts and deploying it!!!</div>
+        <div className='flex md:text-left text-center text-white font-mono font-md md:text-xl text-lg mt-4'>⚡I have a good grasp in Data Structures and algorithms in c++ programming language</div>
         
       </div>
     </div>

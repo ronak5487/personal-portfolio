@@ -23,7 +23,7 @@ const Contacts = () => {
 
 }
   return (
-    <div className='flex  md:flex-row flex-col md:mt-32 mt-28 md:px-24 px-4' id="contact">
+    <div className='flex  md:flex-row flex-col md:pt-32 pt-28 md:px-24 px-4' id="contact">
       <div className='flex flex-col'>
         <div className='flex text-white md:text-5xl text-3xl md:justify-start justify-center font-mono'>Reach out to me!</div>
         <div className='flex md:hidden justify-center'>

@@ -5,7 +5,7 @@ import s from "../assets/s.jpg";
 
 const Education = () => {
   return (
-    <div className='flex flex-col md:mt-44 mt-24 md:px-24 px-7 divide-y-2 divide-y-reverse hover:divide-amber-500 divide-slate-300' id='education'>
+    <div className='flex flex-col pt-44 md:px-24 px-7 divide-y-2 divide-y-reverse hover:divide-amber-500 divide-slate-300' id='education'>
       <div className='flex text-white font-mono md:font-medium font-semibold md:justify-start justify-center md:text-7xl text-5xl'>EDUCATION</div>
     <div className='flex md:flex-row flex-col md:pt-20 pt-16 '>
       <div className='flex md:justify-start justify-center'>
