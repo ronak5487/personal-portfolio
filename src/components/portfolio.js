@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom"
 const Portfolio = () => {
     const navigate = useNavigate();
   return (
-    <div className='flex flex-col w-screen bg-[#171c28] overflow-x-hidden min-h-screen ' id='portfolio'>
+    <div className='flex flex-col w-screen bg-[#171c28] overflow-x-hidden min-h-screen '>
       <div className='flex bg-blue-500 text-white w-20 justify-center rounded-xl p-1 font-mono text-lg md:mt-8 mt-4 md:mx-24 mx-8 hover:cursor-pointer' onClick={() => navigate(-1)}>Back</div>
       <div className=' flex justify-center text-white font-mono md:text-7xl md:mt-0 mt-8 text-5xl font-bold'>Portfolio</div>
       <div className='flex md:flex-row flex-col md:mt-16 mt-12 md:mx-56 md:items-start items-center'>
