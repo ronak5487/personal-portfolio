@@ -8,7 +8,7 @@ const Navbar = () => {
   console.log(toggleMenu);
   return (
     <>
-    <div className='flex flex-col' id='nav'>
+    <div className='flex flex-col top-0 z-50 ' id='nav'>
     <div className='py-6 fixed flex w-screen items-center px-5  bg-[#171c28] animate-side-in overflow-x-hidden '>
       <div className='flex-1 flex-row'>
         <span className='text-slate-400 text-4xl'>&lt;</span>

@@ -2,17 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Agustina";
-  src: url("../public/Agustina.otf");
-}
-.blue-glassmorphism {
-  background:#171c28;
-  border-radius: 16px;
-  /* backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px); */
-  
-}
 .wave {
   animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
   animation-duration: 1.5s;        /* Change to speed up or slow down */
@@ -29,4 +18,16 @@
  50% { transform: rotate(10.0deg) }
  60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
 100% { transform: rotate( 0.0deg) }
+}
+
+@font-face {
+  font-family: "Agustina";
+  src: url("../public/Agustina.otf");
+}
+.blue-glassmorphism {
+  background:#171c28;
+  border-radius: 16px;
+  /* backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); */
+  
 }
