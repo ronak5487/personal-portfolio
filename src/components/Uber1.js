@@ -4,7 +4,7 @@ import wtick from "../assets/wtick.png";
 import link from "../assets/link.png";
 import { useNavigate } from "react-router-dom"
 
-const Uber = () => {
+const Uber1 = () => {
     const navigate = useNavigate();
   return (
     <div className='flex flex-col max-w-screen bg-[#171c28] overflow-x-hidden min-h-screen overflow-x-hidden'>
@@ -51,4 +51,4 @@ const Uber = () => {
   )
 }
 
-export default Uber
+export default Uber1

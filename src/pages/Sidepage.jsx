@@ -1,10 +1,10 @@
 import React from 'react'
-import Crypto1 from '../components/Crypto'
+import Crypto from '../components/Crypto'
 
 
 const Sidepage = () => {
   return (
-    <Crypto1/>
+    <Crypto/>
     
   )
 }
