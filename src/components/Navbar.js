@@ -16,15 +16,15 @@ const Navbar = () => {
         <span className='text-slate-400 ml-3 text-4xl'>/&gt;</span>
         </div>
         <div className='md:flex hidden text-white text-xl mr-14 font-mono'>
-          <Link to="skills" smooth>
+          <Link to="#skills" smooth>
          <div className='hover:bg-fuchsia-700 py-3 px-4 cursor-pointer md:mx-3 mx-4' >Skills</div></Link>
-         <Link to="education" smooth>
+         <Link to="#education" smooth>
          <div className='hover:bg-fuchsia-700 py-3 px-4 cursor-pointer md:mx-3 mx-4'>Education</div></Link>
-         <Link to="projects" smooth>
+         <Link to="#projects" smooth>
          <div className='hover:bg-fuchsia-700 py-3 px-4 cursor-pointer md:mx-3 mx-4'>Projects</div></Link>
-         <Link to="experience" smooth>
+         <Link to="#experience" smooth>
          <div className='hover:bg-fuchsia-700 py-3 px-4 cursor-pointer md:mx-3 mx-4'>Experience</div></Link>
-         <Link to="contact" smooth>
+         <Link to="#contact" smooth>
          <div className='hover:bg-fuchsia-700 py-3 px-4 cursor-pointer md:mx-3 mx-4 '>Contact</div></Link>
         </div>
         {
