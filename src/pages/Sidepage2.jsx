@@ -1,10 +1,10 @@
 import React from 'react'
-import Uber from '../components/Uber'
+import Uber1 from '../components/Uber'
 
 
 const Sidepage2 = () => {
   return (
-    <Uber/>
+    <Uber1/>
   )
 }
 
