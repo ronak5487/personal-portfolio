@@ -1,9 +1,9 @@
 import React from 'react'
-import Portfolio from '../components/Portfolio'
+import Portfolio1 from '../components/Portfolio1'
 
 const Sidepage3 = () => {
   return (
-    <Portfolio/>
+    <Portfolio1/>
   )
 }
 

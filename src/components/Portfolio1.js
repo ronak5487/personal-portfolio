@@ -4,7 +4,7 @@ import wtick from "../assets/wtick.png";
 import link from "../assets/link.png";
 import { useNavigate } from "react-router-dom"
 
-const Portfolio = () => {
+const Portfolio1 = () => {
     const navigate = useNavigate();
   return (
     <div className='flex flex-col w-screen bg-[#171c28] overflow-x-hidden min-h-screen '>
@@ -50,4 +50,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Portfolio1
