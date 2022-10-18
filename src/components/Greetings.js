@@ -41,7 +41,7 @@ const Greetings = () => {
             </div>
             <div className='flex md:justify-start justify-center items-center'>
               <Link to="#contact" smooth><div className={style.button1}>CONTACT ME</div></Link>
-              <a href="https://drive.google.com/file/d/18PHxBvH9Zd_E9bel0iWIcpgw3tpBIYrA/view?usp=sharing" target="_blank" rel="noopener noreferrer"><div className={style.button2}> SEE MY RESUME</div></a>
+              <a href="https://drive.google.com/file/d/1l7QWNoGZWrZpFnW3t25WXak65l7_YKxB/view?usp=sharing" target="_blank" rel="noopener noreferrer"><div className={style.button2}> SEE MY RESUME</div></a>
             </div>
         </div>
         
