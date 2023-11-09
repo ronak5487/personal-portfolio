@@ -28,7 +28,7 @@ const Greetings = () => {
         <div className='flex flex-col md:mx-14 md:w-1/2 md:mt-52 mt-40 w-screen'>
             <span className=' flex md:text-6xl text-3xl text-white md:justify-start ml-3  justify-center font-bold my-7 font-mono '>Hi all, I'm Ronak <span className="wave"> 👋</span></span>
             <div className='text-white md:text-3xl mx-3 md:text-left text-center  text-md font-mono'>
-            A passionate Full Stack Web and Blockchain Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Solidity and some other cool libraries and frameworks.
+            A passionate Full Stack Web Developer 🚀 having an experience of building Web applications with JavaScript / React.js / Next.js / Node.js / MongoDB and some other cool libraries and frameworks.
             </div>
             <div className='flex flex-row flex-wrap md:justify-start justify-center md:mx-0 mx-3 '>
             <a href="https://github.com/ronak5487" target="_blank" rel='noopener noreferrer'><div className={style.giticon}><img src={git} alt="fbicon" width={36} height={36}  ></img></div></a>
@@ -41,7 +41,7 @@ const Greetings = () => {
             </div>
             <div className='flex md:justify-start justify-center items-center'>
               <Link to="#contact" smooth><div className={style.button1}>CONTACT ME</div></Link>
-              <a href="https://drive.google.com/file/d/1l7QWNoGZWrZpFnW3t25WXak65l7_YKxB/view?usp=sharing" target="_blank" rel="noopener noreferrer"><div className={style.button2}> SEE MY RESUME</div></a>
+              <a href="https://drive.google.com/file/d/1cU3KxbfMxqPincZf4y9uXzVm2nRxaDDZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><div className={style.button2}> SEE MY RESUME</div></a>
             </div>
         </div>
         
