@@ -6,11 +6,17 @@ import javascript from "../assets/javascript.png";
 import reactjs from "../assets/reactjs.png";
 import next from "../assets/next.png";
 import node from "../assets/node.png";
-import solidity from "../assets/solidity.png";
+// import solidity from "../assets/solidity.png";
 import cpp from "../assets/cpp.png";
 import py from "../assets/py.png";
-import mi from "../assets/mi.png";
+// import mi from "../assets/mi.png";
 import ex from "../assets/ex.png";
+import db from "../assets/db.png";
+import DO from "../assets/do.png";
+import SO from "../assets/so.png";
+
+
+
 
 
 
@@ -48,10 +54,7 @@ const Skills2 = () => {
             <img src={node} width={54} height={54} alt="html" />
             <div className='text-slate-400 mt-2 font-md' >node-js</div>
           </div>
-          <div className='flex flex-col hover:border-white hover:border-2 text-center p-4'>
-            <img src={solidity} width={60} height={60} alt="solidity" />
-            <div className='text-slate-400 mt-2 font-md' >Solidity</div>
-          </div>
+         
           <div className='flex flex-col hover:border-white hover:border-2 text-center p-4'>
             <img src={cpp} width={60} height={60} alt="cpp" />
             <div className='text-slate-400 mt-2 font-md' >C++</div>
@@ -61,17 +64,29 @@ const Skills2 = () => {
             <div className='text-slate-400 mt-2 font-md' >Python</div>
           </div>
           <div className='flex flex-col hover:border-white hover:border-2 text-center p-4'>
-            <img src={mi} width={60} height={60} alt="mi" />
-            <div className='text-slate-400 mt-2 font-md' >Material-ui</div>
-          </div>
-          <div className='flex flex-col hover:border-white hover:border-2 text-center p-4'>
             <img src={ex} width={60} height={60} alt="mi" />
-            <div className='text-slate-400 mt-2 font-md' >Material-ui</div>
+            <div className='text-slate-400 mt-2 font-md' >Express.js</div>
           </div>
+
+          <div className='flex flex-col hover:border-white hover:border-2 text-center p-4'>
+            <img src={db} width={60} height={60} alt="mi" />
+            <div className='text-slate-400 mt-2 font-md' >MongoDB</div>
+          </div>
+
+          <div className='flex flex-col hover:border-white hover:border-2 text-center p-4'>
+            <img src={DO} width={60} height={60} alt="mi" />
+            <div className='text-slate-400 mt-2 font-md' >Digital Ocean</div>
+          </div>
+
+          <div className='flex flex-col hover:border-white hover:border-2 text-center p-4'>
+            <img src={SO} width={60} height={60} alt="mi" />
+            <div className='text-slate-400 mt-2 font-md' >Socket.io</div>
+          </div>
+
         </div>
         <div className='flex md:text-left text-center text-white font-mono font-md md:text-xl text-lg mt-6'>⚡I can develop highly interactive Front end / User Interfaces for your web applications</div>
-        <div className='flex md:text-left text-center text-white font-mono font-md md:text-xl text-lg mt-4'>⚡I can develop web applications based on blockchain which includes writing smart contracts and deploying it!!!</div>
-        <div className='flex md:text-left text-center text-white font-mono font-md md:text-xl text-lg mt-4'>⚡I have a good grasp in Data Structures and algorithms in c++ programming language</div>
+        <div className='flex md:text-left text-center text-white font-mono font-md md:text-xl text-lg mt-4'>⚡I can develop highly efficient and responsive full-stack applications and also have experience in deploying and hosting web application to Digital Ocean </div>
+        <div className='flex md:text-left text-center text-white font-mono font-md md:text-xl text-lg mt-4'>⚡I have a good grasp in Data Structures and algorithms in c++ programming language, solving over 800+ DSA question. Also ranked in top 8% among leetcode participants</div>
         
       </div>
     </div>

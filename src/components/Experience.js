@@ -11,7 +11,7 @@ const Experience = () => {
       <div className='flex md:justify-start justify-center items-center md:mb-12 w-80'>
       <img src={PB} alt="nit logo" className='flex md:w-40 md:h-40 w-28 h-28 rounded-full bg-white justify-center'/>
       </div>
-     <div className='flex flex-col md:pt-0 pt-6 md:px-8 '>
+     <div className='flex flex-col md:pt-0 pt-6 md:px-24 '>
         <div className='md:flex hidden text-white md:text-4xl text-2xl font-mono font-bold text-center md:text-left'>Property Bhavan</div>
         <div className='md:hidden flex text-white md:text-4xl text-3xl font-mono font-bold text-center justify-center md:text-left'>Property Bhavan</div>
         {/* <div className='md:hidden flex text-white md:text-4xl text-2xl font-mono font-bold text-center md:text-left mt-4'>Private Limited</div> */}

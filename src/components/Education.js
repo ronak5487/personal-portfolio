@@ -14,8 +14,8 @@ const Education = () => {
      <div className='flex flex-col md:pt-0 pt-6 md:px-16 '>
         <div className='flex text-white md:text-4xl text-2xl font-mono font-bold text-center'>National Institute Of Technology Hamirpur</div>
         <div className='flex text-white md:text-2xl text-xl font-mono font-semibold text-center pt-2'>Bachelor Of Technology In Electrical Engineering</div>
-        <div className='flex text-slate-400 md:text-2xl text-xl font-mono md:justify-start justify-center pt-2'>July 2020 - Present</div>
-        <div className='flex text-slate-400 md:text-2xl text-xl font-mono md:justify-start justify-center text-center pt-2 pb-8 '>CGPA - 8.7 </div>
+        <div className='flex text-slate-400 md:text-2xl text-xl font-mono md:justify-start justify-center pt-2'>July 2020 - June 2024</div>
+        <div className='flex text-slate-400 md:text-2xl text-xl font-mono md:justify-start justify-center text-center pt-2 pb-8 '>CGPA - 8.59 </div>
         
 
       </div>

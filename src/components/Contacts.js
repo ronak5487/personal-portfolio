@@ -8,6 +8,8 @@ import leeticon from "../assets/leeticon.png";
 import licon from "../assets/licon.png";
 import twicon from "../assets/twicon.png";
 import uicon from "../assets/uicon.png";
+import Ronak from "../assets/Ronak .jpg";
+
 
 const Contacts = () => {
   const style={
@@ -30,7 +32,7 @@ const Contacts = () => {
           <img src={ri3} alt="ronak" className='flex rounded-full w-64 h-64 border-8 border-blue-500 mt-8'/>
         </div>
         <div className='flex text-slate-400 md:text-2xl text-md mt-2 text-center'>DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.</div>
-        <div className='flex text-white font-mono font-semibold md:text-2xl text-md mt-5 text-center md:text-left'>"19 | NIT Hamirpur | Leetcoder | Web Developer | Hire me 💭"</div>
+        <div className='flex text-white font-mono font-semibold md:text-2xl text-md mt-5 text-center md:text-left'>"20 | NIT Hamirpur | Leetcoder | MERN Stack Developer | Hire me 💭"</div>
         <div className='flex mt-12 md:justify-start justify-center'>
            <img src={location} alt="location" className='w-8 h-8'/>
            <div className='flex text-white font-mono text-2xl ml-6 '>Rajasthan , India</div>
@@ -48,7 +50,7 @@ const Contacts = () => {
         </div>
         
         <div className='md:flex hidden mx-12 '>
-          <img src={ri3} alt="ronak" className='flex rounded-full w-64 h-64 border-8 border-blue-500 '/>
+          <img src={Ronak} alt="ronak" className='flex rounded-full w-64 h-64 border-8 border-blue-500 '/>
         </div>
       
     </div>
