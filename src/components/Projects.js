@@ -14,7 +14,7 @@ const Projects = () => {
   <div className='flex text-white font-mono font-lg md:text-7xl text-5xl md:justify-start justify-center md:mx-24'>PROJECTS</div>
   <div className='flex md:flex-row flex-col justify-center items-center flex-wrap mt-24'>
 
-    <div className='flex flex-col md:hover:border-white border-2 md:border-[#171c28]  rounded-2xl w-80 md:w-96 md:mx-12 hover:shadow-lg hover:shadow-white md:h-[32rem] h-[30rem]  items-center justify-start '>
+    <div className='flex flex-col md:hover:border-white border-2 md:border-[#171c28]  rounded-2xl w-80 md:w-96 md:mx-12 hover:shadow-lg hover:shadow-white md:h-[32rem] h-[30rem]  items-center justify-start md:mb-0 mb-8'>
      <img src={Talk}  alt="crypto" className='flex  rounded-t-2xl h-52 w-80 md:w-96 '></img>
      <div className='flex justify-center text-white text-4xl  font-bold mt-8 font-mono'>Talk Buddy</div>
      <div className='flex justify-center text-center text-slate-400 md:text-xl text-md mt-6 px-4 font-mono'>A responsive MERN stack chat application with a feature of real time messaging using socket.io</div>
@@ -22,7 +22,7 @@ const Projects = () => {
     <div className='flex text-white p-2 bg-[#55198B] w-28 justify-center items-center mb-6  hover:bg-white hover:text-[#55198B] rounded-xl md:mt-4 mt-[23px] '>Know more</div></Link>
     </div>
 
-    <div className='flex flex-col md:hover:border-white border-2 md:border-[#171c28]  rounded-2xl w-80 md:w-96 md:mx-12 hover:shadow-lg hover:shadow-white md:h-[32rem] h-[30rem]  items-center justify-start '>
+    <div className='flex flex-col md:hover:border-white border-2 md:border-[#171c28]  rounded-2xl w-80 md:w-96 md:mx-12 hover:shadow-lg hover:shadow-white md:h-[32rem] h-[30rem]  items-center justify-start md:mb-0 mb-8 '>
      <img src={dev}  alt="crypto" className='flex  rounded-t-2xl h-52 w-80 md:w-96 '></img>
      <div className='flex justify-center text-white text-4xl  font-bold mt-8 font-mono'>DevHub</div>
      <div className='flex justify-center text-center text-slate-400 md:text-xl text-md mt-6 px-4 font-mono'>DevHub is a full-stack social app designed specifically for developers to share expertise & network within the community. </div>

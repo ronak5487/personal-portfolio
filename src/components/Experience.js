@@ -12,16 +12,14 @@ const Experience = () => {
       <img src={PB} alt="nit logo" className='flex md:w-40 md:h-40 w-28 h-28 rounded-full bg-white justify-center'/>
       </div>
      <div className='flex flex-col md:pt-0 pt-6 md:px-8 '>
-        <div className='md:flex hidden text-white md:text-4xl text-2xl font-mono font-bold text-center md:text-left'>Property Bhavan Private Limited</div>
-        <div className='md:hidden flex text-white md:text-4xl text-4xl font-mono font-bold text-center justify-center md:text-left'>Property Bhavan</div>
-        <div className='md:hidden flex text-white md:text-4xl text-2xl font-mono font-bold text-center md:text-left mt-4'>Private Limited</div>
+        <div className='md:flex hidden text-white md:text-4xl text-2xl font-mono font-bold text-center md:text-left'>Property Bhavan</div>
+        <div className='md:hidden flex text-white md:text-4xl text-3xl font-mono font-bold text-center justify-center md:text-left'>Property Bhavan</div>
+        {/* <div className='md:hidden flex text-white md:text-4xl text-2xl font-mono font-bold text-center md:text-left mt-4'>Private Limited</div> */}
 
         <div className='flex text-white md:text-2xl text-xl font-mono font-semibold justify-center md:justify-start text-center md:pt-2 pt-4'>Frontend Developer</div>
         <div className='flex text-slate-400 md:text-2xl text-xl font-mono md:justify-start justify-center pt-2'>Nov 2022 - Jan 2023</div>
-        <div className='flex text-slate-400 md:text-xl text-md font-mono md:justify-start justify-center md:text-left text-center  md:pt-1 pt-4 '>⚡Participated in Project exhibition with modified Hydro Power Plant Project in ”NIMBUS-2K21”, tech fest
-at NIT Hamirpur</div>
-<div className='flex text-slate-400 text-md  md:text-xl font-mono md:justify-start justify-center md:text-left pt-1  text-center pb-20 '>⚡Co-organized a virtual puzzle solving event ”ELECTROHUNT” hosted on Mozilla Hubs, with
-participation of over 100+ enthusiasts</div>
+        <div className='flex text-slate-400 md:text-xl text-md font-mono md:justify-start justify-center md:text-left text-center  md:pt-1 pt-4 '>⚡Enhanced productivity by 30% through successful migration of Property Management Portal from React.js to Next.js, leveraging optimized technology.</div>
+<div className='flex text-slate-400 text-md  md:text-xl font-mono md:justify-start justify-center md:text-left pt-1  text-center pb-10 '>⚡Implemented strategic UI transformation & backend customization resulting in significant improvement, including a 70% increase in web traffic through SEO optimization.</div>
 {/* <div className='flex text-slate-400 text-xl font-mono md:justify-start justify-center text-left pt-1 '>⚡Participated in Project exhibition with modified Hydro Power Plant Project in ”NIMBUS-2K21”, tech fest
 at NIT Hamirpur</div>
          */}
