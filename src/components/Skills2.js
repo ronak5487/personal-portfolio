@@ -10,6 +10,8 @@ import solidity from "../assets/solidity.png";
 import cpp from "../assets/cpp.png";
 import py from "../assets/py.png";
 import mi from "../assets/mi.png";
+import ex from "../assets/ex.png";
+
 
 
 const Skills2 = () => {
@@ -60,6 +62,10 @@ const Skills2 = () => {
           </div>
           <div className='flex flex-col hover:border-white hover:border-2 text-center p-4'>
             <img src={mi} width={60} height={60} alt="mi" />
+            <div className='text-slate-400 mt-2 font-md' >Material-ui</div>
+          </div>
+          <div className='flex flex-col hover:border-white hover:border-2 text-center p-4'>
+            <img src={ex} width={60} height={60} alt="mi" />
             <div className='text-slate-400 mt-2 font-md' >Material-ui</div>
           </div>
         </div>
