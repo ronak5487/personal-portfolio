@@ -1,5 +1,5 @@
 import React from 'react'
-import Portfolio1 from '../components/Portfolio1'
+// import Portfolio1 from '../components/Portfolio1'
 import TalkBuddy from '../components/TalkBuddy'
 
 const Sidepage4 = () => {

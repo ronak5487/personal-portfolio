@@ -1,11 +1,11 @@
 import React from 'react';
-import crypto from "../assets/crypto.png";
+// import crypto from "../assets/crypto.png";
 import Talk from "../assets/Talk.png"
-import u from "../assets/u.png";
+// import u from "../assets/u.png";
 import dev from "../assets/dev..png"
 import ecomm from "../assets/ecomm.png"
 
-import ron from "../assets/ron.png";
+// import ron from "../assets/ron.png";
 import { Link } from "react-router-dom"
 
 const Projects = () => {

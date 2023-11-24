@@ -1,10 +1,10 @@
 import React from 'react'
-import crypto from "../assets/crypto.png";
+// import crypto from "../assets/crypto.png";
 import wtick from "../assets/wtick.png";
 import link from "../assets/link.png";
 import { useNavigate } from "react-router-dom"
-import Talk from '../assets/Talk.png'
-import Dev from '../assets/dev..png'
+// import Talk from '../assets/Talk.png'
+// import Dev from '../assets/dev..png'
 import Ecomm from '../assets/ecomm.png'
 
 
