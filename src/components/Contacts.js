@@ -1,5 +1,5 @@
 import React from 'react'
-import ri3 from '../assets/ri3.jpg'
+// import ri3 from '../assets/ri3.jpg'
 import location from "../assets/location.png";
 import fbicon from "../assets/fbicon.png";
 import git from "../assets/git.png";
@@ -29,7 +29,7 @@ const Contacts = () => {
       <div className='flex flex-col'>
         <div className='flex text-white md:text-5xl text-3xl md:justify-start justify-center font-mono'>Reach out to me!</div>
         <div className='flex md:hidden justify-center'>
-          <img src={ri3} alt="ronak" className='flex rounded-full w-64 h-64 border-8 border-blue-500 mt-8'/>
+          <img src={Ronak} alt="ronak" className='flex rounded-full w-64 h-64 border-8 border-blue-500 mt-8'/>
         </div>
         <div className='flex text-slate-400 md:text-2xl text-md mt-2 text-center'>DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.</div>
         <div className='flex text-white font-mono font-semibold md:text-2xl text-md mt-5 text-center md:text-left'>"20 | NIT Hamirpur | Leetcoder | MERN Stack Developer | Hire me 💭"</div>
